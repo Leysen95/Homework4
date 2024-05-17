@@ -17,5 +17,14 @@ public class Main {
             System.out.println("Если скорость " + speed + ", придется заплатить штраф");}
         else {
             System.out.println("Если скорость " + speed + ", можно ездить спокойно");}
+    int ageMan = 78;
+        if (ageMan >= 2 && ageMan <= 6) {
+            System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно ходить в детский сад");}
+        if (ageMan >= 7 && ageMan <= 17) {
+            System.out.println("Если возраст челоека равен " + ageMan + ", то ему нужно ходить в школу");}
+        if (ageMan >= 18 && ageMan <= 24) {
+            System.out.println("Если возраст человека равен " + ageMan + ", то его место в университете");}
+        else {
+            System.out.println("Если возраст человека равен " + ageMan + ", то ему пора ходить на работу");}
     }
 }
