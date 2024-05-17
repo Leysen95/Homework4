@@ -41,5 +41,14 @@ public class Main {
             System.out.println("Если количество занятых мест составляет " + peopleInTrain + ", то в вагоне имеются сидячие или стоячие места");}
         else {
             System.out.println("Если количество занятых мест составляет " + peopleInTrain + ", то вагон уже полностью забит");}
+int one = 7;
+        int two = 3;
+        int three = 46;
+        if (one >= two && one >= three) {
+            System.out.println(one);}
+        if (two >= one && two >= three) {
+            System.out.println(two);}
+        else {
+            System.out.println(three);}
     }
 }
