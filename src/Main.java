@@ -10,7 +10,12 @@ public class Main {
         if (temperatureWeather < 5) {
             System.out.println("На улице " + temperatureWeather + " гдрадуса, нужно надеть шапку");
         } else {
-            System.out.println("\"На улице " + temperatureWeather + " гдрадуса, можно идти без шапки");
+            System.out.println("На улице " + temperatureWeather + " гдрадуса, можно идти без шапки");
         }
+    int speed = 68;
+        if (speed >= 60) {
+            System.out.println("Если скорость " + speed + ", придется заплатить штраф");}
+        else {
+            System.out.println("Если скорость " + speed + ", можно ездить спокойно");}
     }
 }
