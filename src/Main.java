@@ -33,5 +33,13 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");}
         else  {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то он может кататься без сопровождения взрослого");}
+    int capacityTrain = 102;
+        int peopleInTrain = 64;
+        int seatingPlaces = 60;
+        int standingPlaces = capacityTrain - seatingPlaces;
+        if (peopleInTrain <= 102) {
+            System.out.println("Если количество занятых мест составляет " + peopleInTrain + ", то в вагоне имеются сидячие или стоячие места");}
+        else {
+            System.out.println("Если количество занятых мест составляет " + peopleInTrain + ", то вагон уже полностью забит");}
     }
 }
